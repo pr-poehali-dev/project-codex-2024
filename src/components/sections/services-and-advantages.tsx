@@ -74,27 +74,27 @@ const services = [
 
 const advantages = [
   {
-    icon: "FileText",
-    title: "Фиксированная смета",
-    desc: "Никаких скрытых платежей. Цена не меняется после подписания договора.",
+    icon: "Hammer",
+    title: "Надёжные материалы",
+    desc: "Только проверенный кирпич, газоблок, брус и монолит. Дом тёплый, прочный и долговечный.",
     color: "pink",
   },
   {
-    icon: "ShieldCheck",
-    title: "Гарантия 5 лет",
-    desc: "На все конструкции и инженерные системы. Бесплатно устраняем недостатки.",
+    icon: "FileText",
+    title: "Фиксированная смета",
+    desc: "Цена не меняется после подписания договора — никаких скрытых платежей и удорожаний.",
     color: "purple",
   },
   {
-    icon: "Truck",
-    title: "Собственная техника и бригады",
-    desc: "Никаких субподрядчиков. Контроль качества на каждом этапе.",
+    icon: "Users",
+    title: "Собственные бригады",
+    desc: "Без субподрядчиков. Полный контроль качества на всех этапах: от фундамента до отделки.",
     color: "pink",
   },
   {
     icon: "CreditCard",
     title: "Помощь с ипотекой и маткапиталом",
-    desc: "Подберём выгодные программы, поможем с оформлением.",
+    desc: "Подберём выгодные программы, поможем с оформлением и сделаем дом доступным.",
     color: "purple",
   },
 ]
@@ -195,6 +195,22 @@ export function ServicesAndAdvantages() {
                 </div>
               </div>
             ))}
+          </div>
+
+          {/* Что вы получите */}
+          <div className="mt-16 pt-16 border-t border-white/5 max-w-[900px] mx-auto">
+            <div className="rounded-2xl border border-white/10 p-8 md:p-10 bg-white/2">
+              <div className="text-[10px] md:text-xs uppercase tracking-[0.15em] text-[#A7ABB3] mb-4 flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-pink-400 animate-pulse" />
+                ЧТО ВЫ ПОЛУЧИТЕ С НАМИ
+              </div>
+              <p className="text-base md:text-lg text-[#F2F3F5] leading-relaxed">
+                Вы получаете не просто дом, а ваше личное пространство для жизни. Мы создаём жильё, в котором комфортно и в будни, и в выходные, и в любой сезон.{" "}
+                <span className="text-[#A7ABB3]">
+                  Гарантия 5 лет на конструкции и инженерные системы, а также бесплатная консультация по дизайну интерьера.
+                </span>
+              </p>
+            </div>
           </div>
 
           {/* Stats */}

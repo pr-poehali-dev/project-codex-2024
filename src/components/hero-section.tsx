@@ -72,7 +72,7 @@ export function HeroSection({
               className="text-[#A7ABB3] text-base md:text-lg max-w-[580px] mx-auto mb-8 leading-relaxed stagger-reveal text-white"
               style={{ animationDelay: "180ms" }}
             >
-              Построим загородный дом вашей мечты «под ключ»: от проекта до отделки. Используем только проверенные материалы, современные технологии и даём гарантию на все этапы работ.
+              Строим загородные дома «под ключ» из надёжных материалов с фиксированной сметой и гарантией 5 лет. Более 7 лет на рынке и сотни довольных семей.
             </p>
             <div className="stagger-reveal flex flex-col sm:flex-row gap-4 justify-center" style={{ animationDelay: "270ms" }}>
               <Button
